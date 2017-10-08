@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name      Download Youtube videos and subtitles
 // @namespace  https://www.findhao.net
-// @version    0.3.3
+// @version    0.3.4
 // @description  获取youtube视频和字幕的下载链接
 // @include http://www.youtube.com/*
 // @include https://www.youtube.com/*
@@ -71,7 +71,7 @@ function start() {
         form1.name = "post";
         form1.method = "post";
         form1.target = "_blank";
-        form1.action = "http://www.findyoutube.net/";
+        form1.action = "https://www.findyoutube.net/";
         var input = document.createElement("input");
         input.type = "hidden";
         input.name = "url";
